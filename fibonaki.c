@@ -6,7 +6,7 @@ int main()
     scanf("%d", &num);
     for (int i = 2; i <= 13; i++)
     {
-        n3 = n1 + n2;
+        n3 = n1 + n2; //
         if (n3 == num)
         {
             printf("the number is in the fibonaki series");
