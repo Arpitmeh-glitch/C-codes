@@ -1,6 +1,6 @@
 // wap to apply >, < operator??
 #include <stdio.h>
-int main()
+int main().
 {
     int a;
     printf("enter one number:\n");
