@@ -20,4 +20,4 @@ int main()
     printf("number of words in the sentence= %d\n", wc);
 
     return 0;
-}
+} //
