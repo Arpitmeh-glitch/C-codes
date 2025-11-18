@@ -1,0 +1,29 @@
+// wap o show the use of dynamic memory allocation and empliment calloc or malloc function
+//  wap to show the use of realloc and free
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int n;
+    printf("enter no of students:");
+    scanf("%d", &n);
+
+    int *marks;
+    marks = (int *)malloc(n * sizeof(int));
+    int i;
+    for (i = 0; i < n; i++)
+    {
+        printf("Enter marks of student %d: ", i + 1);
+        scanf("%d", &marks[i]);
+    }
+
+    printf("\nMarks entered are:\n");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d ", marks[i]);
+    }
+
+    free(marks);
+
+    return 0;
+}
